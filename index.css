@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.wave {
+  width: 7rem;
+  animation-duration: 3s;
+  animation-name: wave;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wave {
+  10%, 30% {
+      transform: rotate(10deg);
+  }
+  20%, 40% {
+      transform: none;
+  }
+}
+
+.hello {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin-left: 1rem;
+}
