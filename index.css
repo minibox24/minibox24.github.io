@@ -2,12 +2,16 @@
 
 body {
   margin: 0;
-  height: 100vh;
   background: black;
   color: white;
+}
+
+.hello {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .box {
@@ -23,17 +27,55 @@ body {
 }
 
 @keyframes wave {
-  10%, 30% {
+  8%, 24% {
       transform: rotate(10deg);
   }
-  20%, 40% {
+  16%, 32% {
       transform: none;
   }
 }
 
-.hello {
+.title {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 900;
   font-size: 3rem;
   margin-left: 1rem;
+}
+
+.arrow {
+  margin-top: calc(90vh - 60px);
+  position: absolute;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform: rotate(-45deg);
+  animation: arrowani 1.5s infinite;
+  box-sizing: border-box;
+}
+
+@keyframes arrowani {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 2rem;
+  margin: .5rem;
 }
