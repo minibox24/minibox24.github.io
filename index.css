@@ -103,3 +103,7 @@ body::-webkit-scrollbar {
   width: 2rem;
   margin: .5rem;
 }
+
+.url:visited {
+  color: blue;
+}
