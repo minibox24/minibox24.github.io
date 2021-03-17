@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap');
 
 body {
+  font-family: 'Noto Sans KR', sans-serif;
   margin: 0;
   user-select: none;
   background: #EEEDEB;
@@ -63,7 +64,6 @@ body::-webkit-scrollbar {
 }
 
 .title {
-  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 900;
   font-size: 3rem;
 }
@@ -110,6 +110,11 @@ body::-webkit-scrollbar {
   height: 2rem;
   margin: .5rem;
   fill: red;
+}
+
+.icon-small {
+  width: 1.5rem!important;
+  height: 1.5rem!important;
 }
 
 .linkbox {
