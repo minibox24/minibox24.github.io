@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minibox</title>
+    <script src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css"/>
     <link rel="shortcut icon" href="icon.png">
 
@@ -16,7 +17,7 @@
     <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <div class="hello">
+    <div id="hello" class="page">
         <img class="wave" src="https://discord.com/assets/df7ba0f4020ca70048a0226d1dfa73f6.svg" alt="wave">
         <span class="title">I'm Minibox.</span>
         <div class="icons">
@@ -30,7 +31,30 @@
                 <img class="icon" src="icons/mail.svg" alt="mail">
             </a>
         </div>
-        <div class="arrow"></div>
+        <div class="arrow" onclick="movePage('skils')"></div>
     </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#000000" fill-opacity="1" d="M0,64L40,96C80,128,160,192,240,213.3C320,235,400,213,480,192C560,171,640,149,720,165.3C800,181,880,235,960,256C1040,277,1120,267,1200,240C1280,213,1360,171,1400,149.3L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+      </svg>
+    <div id="skils" class="page">
+        <span class="title">Skils</span>
+    </div>
+    <svg class="wave-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#273036" fill-opacity="1" d="M0,64L40,96C80,128,160,192,240,213.3C320,235,400,213,480,192C560,171,640,149,720,165.3C800,181,880,235,960,256C1040,277,1120,267,1200,240C1280,213,1360,171,1400,149.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+    </svg>
+    <div id="projects" class="page">
+        <span class="title">Projects</span>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#273036" fill-opacity="1" d="M0,160L30,144C60,128,120,96,180,106.7C240,117,300,171,360,197.3C420,224,480,224,540,197.3C600,171,660,117,720,117.3C780,117,840,171,900,186.7C960,203,1020,181,1080,149.3C1140,117,1200,75,1260,90.7C1320,107,1380,181,1410,218.7L1440,256L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path>
+    </svg>
+    <div id="links" class="page">
+        <span class="title">Links</span>
+    </div>
+    <svg class="wave-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#000000" fill-opacity="1" d="M0,160L30,144C60,128,120,96,180,106.7C240,117,300,171,360,197.3C420,224,480,224,540,197.3C600,171,660,117,720,117.3C780,117,840,171,900,186.7C960,203,1020,181,1080,149.3C1140,117,1200,75,1260,90.7C1320,107,1380,181,1410,218.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    </svg>
+    <footer class="footer">
+    </footer>
 </body>
 </html>

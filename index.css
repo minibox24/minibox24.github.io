@@ -2,16 +2,39 @@
 
 body {
   margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.wave-bottom {
+  margin-bottom: -6px;
+}
+
+#hello {
   background: black;
   color: white;
 }
 
-.hello {
+#projects {
+  background: #273036;
+  color: white;
+}
+
+.page {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.footer {
+  background: black;
+  color: white;
+  height: 20vh;
+  display: flex;
 }
 
 .box {
