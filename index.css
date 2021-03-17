@@ -37,6 +37,8 @@ body::-webkit-scrollbar {
   color: white;
   height: 20vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box {
@@ -106,4 +108,13 @@ body::-webkit-scrollbar {
 
 .url:visited {
   color: blue;
+}
+
+.heart {
+  color: red;
+  text-decoration: none;
+}
+
+.heart:visited {
+  color: red;
 }
