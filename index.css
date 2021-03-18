@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
 }
 
 .nav-btns {
-  animation: nav-out 1s;
+  animation: nav-out 200ms;
   animation-fill-mode: forwards;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 }
 
 .nav:hover .nav-btns {
-  animation: nav-in 1s;
+  animation: nav-in 200ms;
 }
 
 @keyframes nav-in {
